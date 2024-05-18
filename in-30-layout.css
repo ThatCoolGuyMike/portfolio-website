@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: Sedan;
+    color: black;
+}
+
+html, body{
+
+    margin: 0;
+    padding: 0;
+}
+.Tittle {
+    text-align:center;
+    left:auto;
+    margin: 0;
+    font-size: 4em;
+    font-family: Noto Serif;
+    font-weight: normal;
+    color: white;
+}
+.Top-Tittle{
+    font-size: 6em;
+}
+.nav ul{
+
+    margin:0;
+    color: white;
+}
+
+.nav li {
+        text-align:center;
+    left:auto;
+    display: inline;
+
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+.nav a:hover{
+
+    background-color: rgba(188, 188, 188, .7);
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    color: white;
+}
+.main-nav li{
+    padding: 0 5%;
+    color: white;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+
+    border: 10px solid black;
+    background-color: whitesmoke;
+
+}
+
+
+.MainHeader{
+
+    padding-top: 20px;
+    background-color: dimgray;
+    background-size: cover;
+    padding-bottom: 60px;
+    color: white;
+}
+.content-section{
+
+    margin: 1em;
+    
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.BaseDamageEdit{
+
+    border-radius: 50%
+}
+.BaseDamage2Edit {
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+    position: fixed;
+    bottom: 40%;
+    left: 50%;
+}
+.Bottom-Links{
+    background-color: dimgray;
+    color: white;
+    padding: .25em 0;
+    bottom: 0%;
+}
+
+.Bottom-Links-container{
+    display: flex;
+    align-items:center;
+}
+.Bottom-Links-container ul{
+    flex-grow: 1;
+    text-align:end;
+}
+
+.footer-nac li{
+
+    padding: 0 .5em;
+}
+
+
+div.LeftFixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: whitesmoke;
+    border: 3px solid white;
+    word-wrap: break-word;
+}
+.inline {
+    display: inline-block;
+    text-decoration: none;
+}
+.text-decoration {
+    text-decoration: none;
+}
+.boxParagraph {
+    position: fixed;
+    left: 25%;
+    width: 25%;
+    height: 50%;
+    background-color: whitesmoke;
+    border: 3px solid white;
+    word-wrap: break-word;
+}
